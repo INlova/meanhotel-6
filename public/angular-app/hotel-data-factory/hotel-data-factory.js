@@ -14,7 +14,7 @@ function hotelDataFactory($http) {
   }
 
   function complete(response) {
-    return response;
+    return response.data;
   }
   function failed(error) {
     console.log(error.statusText);
